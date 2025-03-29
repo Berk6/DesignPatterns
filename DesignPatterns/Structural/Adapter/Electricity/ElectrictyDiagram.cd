@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.Structural.Adapter.Electricity.TurkishHomeAppliance">
+    <Position X="8.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\TurkishHomeAppliance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Structural.Adapter.Electricity.TurkishPowerProvider" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\TurkishPowerProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.19" />
+  </Class>
+  <Class Name="DesignPatterns.Structural.Adapter.Electricity.HomeAppliance">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAABA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\HomeAppliance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Structural.Adapter.Electricity.Us.USPowerProvider" BaseTypeListCollapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAkBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\Us\USPowerProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.Structural.Adapter.Electricity.Us.USHomeApplicance">
+    <Position X="17.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAABABAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\Us\USHomeApplicance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Structural.Adapter.Electricity.ITurkishPowerSource">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAQAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\ITurkishPowerSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Structural.Adapter.Electricity.IAppliance">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\IAppliance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DesignPatterns.Structural.Adapter.Electricity.Us.IUSPowerSource">
+    <Position X="15" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Adapter\Electricity\Us\IUSPowerSource.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
