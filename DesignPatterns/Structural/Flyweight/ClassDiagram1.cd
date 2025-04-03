@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="DesignPatterns.Structural.Flyweight.Book">
+    <Position X="0.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAEgAAAAAAAAAAAIAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Structural\Flyweight\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Structural.Flyweight.Line">
+    <Position X="7.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAGAEIAAAAEAAAIAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Structural\Flyweight\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Structural.Flyweight.BookFactory" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAABAAAACAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Structural\Flyweight\BookFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.872" />
+  </Class>
+  <Class Name="DesignPatterns.Structural.Flyweight.Character">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEAAAAAICAAAAAEAAABAAAAAAAAAgAACAAAgAAAEQA=</HashCode>
+      <FileName>Structural\Flyweight\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Structural.Flyweight.Page">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAABIAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Flyweight\Page.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.Structural.Flyweight.Process">
+    <Position X="5.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structural\Flyweight\Process.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Structural.Flyweight.IFactory">
+    <Position X="1.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAACAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Structural\Flyweight\IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

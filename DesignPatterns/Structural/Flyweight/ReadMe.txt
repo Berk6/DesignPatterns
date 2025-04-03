@@ -21,3 +21,6 @@ Flyweight sınıfının kaç nesnesinin aynı anda kullanılacağı, yaratılaca
 * Oluşturulan sınırlı sayıda nesnenin içsel durumu belirlenir.
 * Sonrasında oluşturulan nesneler farklı bağlamlarda tekrar kullanılır.
 * Dışsal durum ise nesne kullanıldığı bağlama göre belirlenir.
+
+Flyweight nesneler çoğunlukla bellekte devamlı olarak tutulurlar. Bu nedenle bellek yönetimi önemlidir. Nesne havuzları kullanılarak bellek yönetimi yapılır.
+Her nesne havuzundaki nesne flyweight(tüy siklet) değildir çünkü flyweight nesne olabilmesi için farklı bağlamlarda tekrar kullanılması gerekir. Yani nesne havuzunda birebir aynı nesne olması aranmadan, instrinsic state'i aynı olan nesnenin extrinsic stateleri değiştirilerek kullanılması durumuna flyweight denir.
